@@ -39,13 +39,16 @@
 			function onClick()
 			{
 			    var toPrint = document.getElementById("inputField").value;
+				
+				document.getElementById("titleOutput").innerHTML = "Nice to meet you,"
 				document.getElementById("name").innerHTML = toPrint;
+				
 			}
 		</script>
 
 	</div>
 	<div id = "outputPanel">
-		<h1> Nice to meet you, </h1>
-		<h2 id = "name"> Name goes here</h2>
+		<h1 id = "titleOutput"></h1>
+		<h2 id = "name"></h2>
 	</div>
 </HTML>
