@@ -3,6 +3,22 @@
 
 60 Days of Learning Web Design
 
+Day 4:
+======
+I got the initial code done pretty quickly for this time around, but I made
+an effort to do a slightly better job with my UI. I am still having a weird
+issue with git where I have to re-add the file each time I commit. Today, I
+made a simple website that counts down the days until my parents visit, but
+I guess that probably won't still be doing the right thing when the 60 days
+are up, since my algorithm isn't the cleanest. I tried to use JQuery to get
+the window size to make my panels adjust properly, but realized after a few
+attempts that I didn't really need to use that at all, I just needed to use
+width=% for each of the three columns. I'm a little bit frustrated with how
+lacking my designs are, but I think that as I progress I'll be a little bit
+better about utilizing the tools and finding the most efficient ways to get
+stuff done. For tomorrow, I will be doing a simple site to calculate simple
+mathematics problems (+, -, *, /). Partially inspired by the GRE... 2 days.
+
 
 Day 3:
 ======
