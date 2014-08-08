@@ -11,7 +11,6 @@
 		<h2 id = "days">  </h2>
 		<h2 id = "hours"> </h2>
 		<h2 id = "minutes"> </h2>
-		<h2 id = "seconds"> </h2>
 		
 		<script id = "myScript" type = "text/javascript">
 			function countDown()
@@ -21,18 +20,16 @@
 				var today_day = today.getDate();
 				var today_hour = today.getHours();
 				var today_minute = today.getMinutes();
-				var today_second = today.getSeconds();
 				
-				if(today.getUTCMonth() === 7)
-				{
-					document.getElementById("days").innerHTML = (42 - today_day) + " days";
-					document.getElementById("hours").innerHTML = today_hour + "  hours";
-					document.getElementById("minutes").innerHTML = today_minute + " minutes";
-					document.getElementById("seconds").innerHTML = today_second + " seconds";
-				}
-				else
-				{
-				}
+				//Calculate time
+				if(today.getUTCMonth() === 7){document.getElementById("days").innerHTML = (42 - today_day) + " days";}
+				else{document.getElementById("days").innerHTML = (11 - today_day) + " days";}
+
+				if(today_hour < 10){document.getElementById("hours").innerHTML = (10 - today_hour) + "  hours";}
+				else{document.getElementById("hours").innerHTML = ((24 - today_hour) + 10) + "  hours";}
+				
+				if(today_minute < 4){document.getElementById("minutes").innerHTML = (4 - today_minute) + "  minutes";}
+				else{document.getElementById("minutes").innerHTML = ((60 - today_minute) + 4) + "  minutes";}
 
 			}
 			countDown()
