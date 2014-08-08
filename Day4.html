@@ -1,0 +1,41 @@
+<! Doctype = HTML>
+<HTML>
+	<style>
+			#inputPanel{background-color: #332399;height:500; text-align:center;}
+			h1{font-size:50; text-align:center; color:#FFFFFF}
+			h2{font-size:50}
+
+	</style>
+	<div id = "inputPanel">
+		<h1> Time to arrival: </h1>
+		<h2 id = "days">  </h2>
+		<h2 id = "hours"> </h2>
+		<h2 id = "minutes"> </h2>
+		<h2 id = "seconds"> </h2>
+		
+		<script id = "myScript" type = "text/javascript">
+			function countDown()
+			{
+				//Set up variables
+			    var  today = new Date( )
+				var today_day = today.getDate();
+				var today_hour = today.getHours();
+				var today_minute = today.getMinutes();
+				var today_second = today.getSeconds();
+				
+				if(today.getUTCMonth() === 7)
+				{
+					document.getElementById("days").innerHTML = (42 - today_day) + " days";
+					document.getElementById("hours").innerHTML = today_hour + "  hours";
+					document.getElementById("minutes").innerHTML = today_minute + " minutes";
+					document.getElementById("seconds").innerHTML = today_second + " seconds";
+				}
+				else
+				{
+				}
+
+			}
+			countDown()
+		</script>
+	</div>
+</HTML>
