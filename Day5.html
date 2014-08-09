@@ -1,4 +1,12 @@
 <HTML>
+	<style>
+		h1{font-family:Arial;background-color:#FFAAFF; color:#555333; text-align:center}
+		h3{font-family:Helvetica; text-align:center}
+		button{margin-top:10; align:center}
+		div{text-align:center}
+	</style>
+	<h1> Calculator </h1>
+	<div>
 	<input type="number" id="firstnum" >
 	<select id="ddm">
 		<option value="add"> + </option>
@@ -6,9 +14,11 @@
 		<option value="multiply"> x </option>
 	</select>
 	<input  type="number" id="secondnum">
+	<br>
 	<button id = "go" onclick="listener()"> Answer </button>
-	<h3 id="answer"> Answer is: </h3>
-	
+	</div>
+	<h3> Answer is: </h3>
+	<h3 id="answer"> </h3>
 	<script id ="myScript" type="text/javascript">
 		function listener()
 		{
@@ -18,8 +28,8 @@
 			var b = document.getElementById("secondnum").value
 			
 			if(drop_down.selectedIndex === 0) {document.getElementById("answer").innerHTML = add(a, b)}
-			else if(drop_down.selectedIndex === 1){document.getElementById("answer").innerHTML = sub(a, b)}
 			else{document.getElementById("answer").innerHTML = mult(a,b)}
+			else if(drop_down.selectedIndex === 1){document.getElementById("answer").innerHTML = sub(a, b)}
 		}
 		function add( a, b){return Number(a) + Number(b)}
 		function sub(a, b){return Number(a)-Number(b)}
