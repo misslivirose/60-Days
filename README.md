@@ -3,6 +3,21 @@
 
 60 Days of Learning Web Design
 
+Day 5:
+======
+It's been an entirely exhausting week, so today's program was a simple page
+that let you perform three math operations on two numbers. I wanted to work 
+on a program with a few more functions, and didn't realize until today that 
+I've had to go back to really basic programming problems. It's like being a
+new computer science student over again, but with a bit more confidence and 
+with my own twist to it. Today, I learned about the drop down menu and made
+a script with more than one function in it. I'm planning on getting several
+more small pages in, and then perhaps do my first attempt at something more
+interesting - I've got an idea that I'm musing about using the FCC comments
+that were released about net neutrality. First, I have a few other things I
+need to learn to do something like that. I'll have more time tomorrow since
+it's a weekend, so maybe I'll try to do something more complex and host it.
+
 Day 4:
 ======
 I got the initial code done pretty quickly for this time around, but I made
