@@ -1,0 +1,28 @@
+<HTML>
+	<input type="number" id="firstnum" >
+	<select id="ddm">
+		<option value="add"> + </option>
+		<option value="subtract"> - </option>
+		<option value="multiply"> x </option>
+	</select>
+	<input  type="number" id="secondnum">
+	<button id = "go" onclick="listener()"> Answer </button>
+	<h3 id="answer"> Answer is: </h3>
+	
+	<script id ="myScript" type="text/javascript">
+		function listener()
+		{
+			var drop_down = document.getElementById("ddm")
+			
+			var a = document.getElementById("firstnum").value
+			var b = document.getElementById("secondnum").value
+			
+			if(drop_down.selectedIndex === 0) {document.getElementById("answer").innerHTML = add(a, b)}
+			else if(drop_down.selectedIndex === 1){document.getElementById("answer").innerHTML = sub(a, b)}
+			else{document.getElementById("answer").innerHTML = mult(a,b)}
+		}
+		function add( a, b){return Number(a) + Number(b)}
+		function sub(a, b){return Number(a)-Number(b)}
+		function mult(a, b)	{return Number(a)*Number(b)}
+	</script>
+</HTML>
