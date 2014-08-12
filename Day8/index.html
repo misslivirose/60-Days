@@ -1,7 +1,8 @@
 <HTML>
 	<style>
 		img{
-			width:20%;
+			margin-top:20px;
+			width:25%;
 			top:10%;
 			position:relative;
 
@@ -20,17 +21,22 @@
 			animation-timing-function:linear
 		}
 		button{
-
+			width:600px;
+			height:200px;
+			background: url(PauseButton.png) no-repeat;
+			background-color:transparent;
+			border: none;
+			outline:none;
 		}
 		@-webkit-keyframes move 
 		{
 			from{left:0%;}
-			to{left:80%;}
+			to{left:75%;}
 		}
 		@keyframes move
 		{
 			from{left:0%;}
-			to{left:80%;}
+			to{left:75%;}
 		}
 	</style>
 	<script id = "onclick" type = "text/javascript">
@@ -44,16 +50,20 @@
 				_pic.style.animationPlayState="running"
 				_pic.style.WebkitAnimationPlayState = "running"
 				_button.value = "Pause! "
+				_button.style.backgroundImage = "url('PauseButton.png')"
 			}
 			else
 			{
 				_pic.style.animationPlayState="paused"
 				_pic.style.WebkitAnimationPlayState = "paused"
 				_button.value = "Play! "
+				_button.style.backgroundImage = "url('PlayButton.png')"
 			}
 		}
 	</script>
 	<img id = "picture" src="Mosby.png">
 	<br><br>
-	<button id = "b1" onclick="pauseplay()"> Click Me! </button>
+	<div style = "text-align:center">
+	<button id = "b1" onclick="pauseplay()"> </button>
+</div>
 </HTML>
