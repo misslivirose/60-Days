@@ -1,0 +1,59 @@
+<HTML>
+	<style>
+		img{
+			width:20%;
+			top:10%;
+			position:relative;
+
+			/* Webkit*/
+			-webkit-animation:move;
+			-webkit-animation-duration:4s;
+			-webkit-animation-direction:alternate;
+			-webkit-animation-iteration-count: infinite;
+			-webkit-animation-timing-function:linear;
+
+			/* Standard Syntax*/
+			animation: move; 
+			animation-duration:4s;
+			animation-direction:alternate;
+			animation-iteration-count: infinite;
+			animation-timing-function:linear
+		}
+		button{
+
+		}
+		@-webkit-keyframes move 
+		{
+			from{left:0%;}
+			to{left:80%;}
+		}
+		@keyframes move
+		{
+			from{left:0%;}
+			to{left:80%;}
+		}
+	</style>
+	<script id = "onclick" type = "text/javascript">
+		function pauseplay()
+		{
+			var _button = document.getElementById("b1");
+			var _pic = document.getElementById("picture");
+
+			if(_button.value === "Play! ")
+			{
+				_pic.style.animationPlayState="running"
+				_pic.style.WebkitAnimationPlayState = "running"
+				_button.value = "Pause! "
+			}
+			else
+			{
+				_pic.style.animationPlayState="paused"
+				_pic.style.WebkitAnimationPlayState = "paused"
+				_button.value = "Play! "
+			}
+		}
+	</script>
+	<img id = "picture" src="Mosby.png">
+	<br><br>
+	<button id = "b1" onclick="pauseplay()"> Click Me! </button>
+</HTML>
