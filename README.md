@@ -3,6 +3,22 @@
 
 60 Days of Learning Web Design
 
+Day 8:
+======
+I didn't write anything the past two days because there wasn't much to show
+for those two days. Saturday, I was busy taking the GRE and only did a tiny
+happy birthday image. Most of it was done in Inkscape and was just shown as
+an image. Yesterday, I did a static page that showed off images of the view
+in Belhaven and pictures of my parent's house. I learned how to use Inspect
+Element feature in Chrome to debug, which was great for fixing layouts. The
+site that I made today was something with animations! I originally was only
+going to make a small back and forth animation, but ended up in Inkscape to
+make buttons when I finished quickly. Today was exciting, because I finally
+put everything together and have started figuring out how it all fits in to
+the different places. I also got a new idea for a game to build - I may try
+building a slightly bigger project after doing a couple of weeks of this!!!
+
+
 Day 5:
 ======
 It's been an entirely exhausting week, so today's program was a simple page
