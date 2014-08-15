@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+		<style>
+			body
+			{
+				margin:0px;
+				background-color: #1a1a1a;
+			}
+			h1
+			{
+				font-family: 'Lora';
+				font-style: italic;
+			}
+
+			#photocontainer
+			{
+				width: 100%;
+				overflow: hidden;
+				margin:0px;
+				box-shadow: 5px 5px 25px 5px #363636;
+				box-shadow: -5px -5px 25px 5px #363636;
+			}
+			.photobanner
+			{
+				width: 4800px;
+			}
+			/*Animation for banner*/
+			.first
+			{
+				-webkit-animation: movepic 2s linear infinite;
+				-webkit-animation-delay: 5s;
+			}
+			@-webkit-keyframes "movepic"
+			{
+				0% {margin-left: 0px;}
+				100% {margin-left:-3200px;}
+			}
+		</style>
+	</head>
+
+	<body>
+		<div>
+			<h1> </h1> <br> <br><br>
+		</div>
+		<div id = "photocontainer">
+			<div class="photobanner">
+				<!-- Get permission, source site here: http://gilwellbear.wordpress.com/ -->
+				<img class="first" src = "Sailboat.jpg">
+				<img src = "Marina.jpg">
+				<img src = "Sailboat.jpg">
+			</div>
+		</div>
+	</body>
+
+	<footer>
+	</footer>
+
+</html>
