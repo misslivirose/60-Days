@@ -1,0 +1,89 @@
+body
+			{
+				margin:0px;
+				background-color: #030303;
+			}
+			h1
+			{
+				font-family: 'Raleway';
+				font-weight: 300;
+				font-size:50px;
+				text-align: center;
+				color:#f1c588;
+				-webkit-animation:fadein 5s;
+			}
+
+			#photocontainer
+			{
+				width: 100%;
+				height: 444px;
+				overflow: hidden;
+				margin:0px;
+				box-shadow: 5px 5px 25px 5px #715d40;
+				box-shadow: -5px -5px 25px 2px #715d40;
+				-webkit-animation:fadein 5s;
+			}
+			.photobanner
+			{
+				width: 300%;
+				height:444px;
+			}
+			/*Animation for banner*/
+			.first
+			{
+				/*-webkit-animation: movepic 20s linear infinite; 
+				-webkit-animation-delay: 5s; */
+			}
+			img
+			{
+				width:33.33%;
+			}
+			/*To Do: Smooth animations here*/
+			@-webkit-keyframes "movepic"
+			{
+				0% {margin-left: 0%;}
+				10% {margin-left:-33.33%;}
+				60% {margin-left:-33.33%;}
+				70% {margin-left:-66.66%;}
+				100% {margin-left:-66.66%;}
+			}
+			@-webkit-keyframes "fadein"
+			{
+				from {opacity: 0;}
+				to {opacity: 1;}
+			}
+			#menuitems
+			{
+				color: #f1c588;
+			}
+			a
+			{
+				font-family: 'Raleway';
+				font-size: 30px;
+				position:fixed;
+			}
+			a:hover
+			{
+				font-size: 35px;
+			}
+			#hours
+			{
+				-webkit-animation:fadein 5s;
+				-webkit-animation-delay: 1s;
+				left:25%;
+
+			}
+			#menu
+			{
+				-webkit-animation:fadein 5s;
+				-webkit-animation-delay: 1s;
+				margin-right: auto;
+				margin-left: auto;
+				width: 100px;
+			}
+			#contact
+			{
+				-webkit-animation:fadein 5s;
+				-webkit-animation-delay: 1s;
+				right: 25%;
+			}
