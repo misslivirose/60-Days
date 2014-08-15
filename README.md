@@ -3,6 +3,20 @@
 
 60 Days of Learning Web Design
 
+Day 11:
+=======
+Days 9 and 10 I played around a little bit more with basic animations and I
+was able to get a feel for how keyframes work. Yesterday's project was a VT
+portfolio that played around with some CSS customizations, and today I made
+a page that almost looks like the start of something legitimate! I wanted a
+page that I could do an icon for, and picked a candy theme. I learned about
+using Google for getting customized fonts, worked on color coordination and
+shadowing/highlighting, and practiced some types of adjustment for the page
+to lay out *kind of* correctly when I adjusted the window size! I got a bit
+more knowledge about using git and updated my gh-pages branch. Day 11 has a
+little bit more detail about what I was aiming for on the page itself, plus
+an easter egg that I hid in the form of a hyperlink! (And a tooltip shows!)
+
 Day 8:
 ======
 I didn't write anything the past two days because there wasn't much to show
