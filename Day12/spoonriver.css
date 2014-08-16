@@ -4,6 +4,7 @@
 				background-color: #030303;
 				padding:0px;
 			}
+			/*Header Styles*/
 			h1
 			{
 				font-family: 'Raleway';
@@ -11,9 +12,52 @@
 				font-size:50px;
 				text-align: center;
 				color:#f1c588;
-				-webkit-animation:fadein 5s;
+				-webkit-animation:fadein 4s;
+				-webkit-animation-delay:.5s;
 			}
-
+			h2
+			{
+				font-family: 'Raleway';
+				font-weight: 300;
+				font-size:25px;
+				text-align: center;
+				color:#f1c588;
+				margin-top: -5px;
+				-webkit-animation:fadein 4s;
+				-webkit-animation-delay:.5s;
+			}
+			h3
+			{
+				font-family: 'Raleway';
+				font-weight: 300;
+				font-size:20px;
+				text-align: center;
+				color:#f1c588;
+				margin-top:-5px;
+				-webkit-animation:fadein 4s;
+				-webkit-animation-delay:.5s;
+			}
+			/*Image Style*/
+			img
+			{
+				width:33.34%;
+			}
+			/*Link Style*/
+			a
+			{
+				font-family: 'Raleway';
+				font-size: 30px;
+				font-weight: 300;
+				height:45px;
+				color: #f1c588;
+				-webkit-animation:fadein 5s;
+				-webkit-animation-delay: 1s;
+			}
+			a:hover
+			{
+				font-size: 40px;
+			}
+			/*Photo Scroller*/
 			#photocontainer
 			{
 				width: 100%;
@@ -27,47 +71,24 @@
 			{
 				width: 300%;
 				height:444px;
+				margin-left: -4px;
 			}
-			/*Animation for banner*/
 			.first
 			{
 				-webkit-animation: movepic 20s linear infinite; 
 				-webkit-animation-delay: 5s;
+
+				animation: movepic 20s linear infinite; 
+				animation-delay: 5s;
 			}
-			img
-			{
-				width:33.34%;
-			}
-			/*To Do: Smooth animations here*/
-			@-webkit-keyframes "movepic"
-			{
-				0% {margin-left: 0%;}
-				10% {margin-left:-33.33%;}
-				60% {margin-left:-33.33%;}
-				70% {margin-left:-66.66%;}
-				100% {margin-left:-66.66%;}
-			}
-			@-webkit-keyframes "fadein"
-			{
-				from {opacity: 0;}
-				to {opacity: 1;}
-			}
+			/* Menu Styling for bottom */
 			#menuitems
 			{
 				height:40%;
 				text-align:center;
 				color: #f1c588;
 			}
-			a
-			{
-				font-family: 'Raleway';
-				font-size: 30px;
-				height:45px;
-			}
-			a:hover
-			{
-				font-size: 35px;
-			}
+		
 			#hours
 			{
 				-webkit-animation:fadein 5s;
@@ -88,4 +109,32 @@
 				-webkit-animation:fadein 5s;
 				-webkit-animation-delay: 1s;
 				right: 25%;
+			}
+			/*Webkit Animations*/
+			@-webkit-keyframes movepic
+			{
+				0% {margin-left: 0%;}
+				10% {margin-left:-33.33%;}
+				60% {margin-left:-33.33%;}
+				70% {margin-left:-66.66%;}
+				100% {margin-left:-66.66%;}
+			}
+			@-webkit-keyframes fadein
+			{
+				from {opacity: 0;}
+				to {opacity: 1;}
+			}
+			/*Standard Animations*/
+			@keyframes movepic
+			{
+				0% {margin-left: 0%;}
+				10% {margin-left:-33.33%;}
+				60% {margin-left:-33.33%;}
+				70% {margin-left:-66.66%;}
+				100% {margin-left:-66.66%;}
+			}
+			@keyframes fadein
+			{
+				from {opacity: 0;}
+				to {opacity: 1;}
 			}
