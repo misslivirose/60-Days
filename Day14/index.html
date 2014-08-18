@@ -14,7 +14,8 @@
 				border: 0px;
 				animation:fadein 3s;
 				-webkit-animation:fadein 3s;
-
+				-moz-animation:fadein 3s;
+				-o-animation:fadein 3s;
 			}
 
 			#container{
@@ -28,6 +29,8 @@
 				box-shadow: 0px 0px 10px 10px #111111;
 				animation:partialfadein 2s;
 				-webkit-animation:partialfadein 2s;
+				-moz-animation:partialfadein 2s;
+				-o-animation:partialfadein 2s;
 			}
 			p{
 				color: #dfe7dc;
@@ -36,13 +39,16 @@
 				font-size: 42px;
 				padding-left: 10px;
 				padding-right: 10px;
-				animation:fadein 5s;
+				animation:fadein 2s;
 				-webkit-animation:fadein 2s;
+				-moz-animation:fadein 2s;
+				-o-animation:fadein 2s;
 			}
 			p.first
 			{
 				padding-top: 15px;
 			}
+			/* Standard fade animations */
 			@keyframes fadein
 			{
 				0% {opacity:0;}
@@ -53,12 +59,35 @@
 				0% {opacity:0;}
 				100% {opacity:.83;}
 			}
+			/* Chrome fade animations */
 			@-webkit-keyframes fadein
 			{
 				0% {opacity:0;}
 				100% {opacity: 1;}
 			}
 			@-webkit-keyframes partialfadein
+			{
+				0% {opacity:0;}
+				100% {opacity:.83;}
+			}
+			/* Firefox fade animations */
+			@-moz-keyframes fadein
+			{
+				0% {opacity:0;}
+				100% {opacity: 1;}
+			}
+			@-moz-keyframes partialfadein
+			{
+				0% {opacity:0;}
+				100% {opacity:.83;}
+			}
+			/* Opera fade animations */
+			@-o-keyframes fadein
+			{
+				0% {opacity:0;}
+				100% {opacity: 1;}
+			}
+			@-o-keyframes partialfadein
 			{
 				0% {opacity:0;}
 				100% {opacity:.83;}
