@@ -3,6 +3,18 @@
 
 60 Days of Learning Web Design
 
+Day 14:
+=======
+Isn't it suprising when the days you don't expect to be productive ones end
+up teaching you all sorts of things? Today, I got home late and didn't feel
+like I was going to be able to do much: and if you check out the site I did
+today, it won't necessarily look like it - I was playing more around with a
+visual style. Yesterday, I didn't actually do any new coding, but I did add
+a site for the day, and the mental break helped me make several connections
+today that I hadn't previously put together. I know what I'm doing tomorrow
+as a result, and it may not be something pretty, but having the right tools
+at my disposal should greatly enhance what I'm able to pull together daily.
+
 Day 11:
 =======
 Days 9 and 10 I played around a little bit more with basic animations and I
