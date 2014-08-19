@@ -1,0 +1,19 @@
+body
+{
+	margin:0px;
+}
+
+#fullHeader
+{
+	width:100%;
+}
+
+#centerAlign
+{
+	text-align: center;
+}
+
+#smallImage
+{
+	width:33%;
+}
