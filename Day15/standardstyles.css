@@ -6,14 +6,35 @@ body
 #fullHeader
 {
 	width:100%;
+	-webkit-animation:rotate 10s;
 }
 
 #centerAlign
 {
 	text-align: center;
 }
-
-#smallImage
+.third
 {
-	width:33%;
+	height:33%;
+}
+.half
+{
+	height:50%;
+}
+.semiOpaque
+{
+	opacity: .5;
+}
+
+/* Rotation animation */ 
+@keyframes rotate
+{
+	from {transform:rotate(0deg);}
+	to {transform:rotate(360deg);}
+}
+
+@-webkit-keyframes rotate
+{
+	from {transform:rotate(0deg);}
+	to {transform:rotate(360deg);}
 }
