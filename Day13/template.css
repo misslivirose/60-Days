@@ -35,6 +35,7 @@ p
 	text-align: center;
 	font-size: 15px;
 	background-color: #DDDDDD;
+	width:100%;
 }
 img.background
 {
@@ -50,11 +51,19 @@ img.background
 	padding-left:20px;
 	padding-right:20px;
 	text-decoration: none;
+	z-index:1;
+
 }
 a.major
 {
 	padding-left:20px;
 	padding-right:20px;
+}
+a.most
+{
+	padding-left:30px;
+	padding-right:30px;
+	font-size:35px
 }
 a:hover
 {
