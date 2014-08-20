@@ -3,24 +3,9 @@ body
 	margin:0;
 	font-family:Raleway;
 }
-#header
-{
-
-	position:relative;
-	height:65%;
-	width:100%;
-	box-shadow: 0px 2px 10px 2px #523152;
-}
 p
 {
 	text-align: center;
-}
-#pic
-{
-	box-shadow: 0px 2px 10px 2px #523152;
-	width:100%;
-	margin-bottom: 0px;
-
 }
 #rose
 {
@@ -32,11 +17,11 @@ p
 	text-align: center;
 	font-size:30px;
 	background-color:#FFFFFF;
-	height:30%;
+	height:27%;
 }
 #footer
 {
-	height:5%;
+	height:8%;
 	text-align: center;
 	font-size: 18px;
 	background-color: #FFFFFF;
@@ -44,11 +29,10 @@ p
 }
 img.background
 {
-	position:absolute;
 	width:100%;
+	box-shadow: 0px 2px 10px 2px #523152;
 	top:0;
 	left:0;
-	z-index:-1;
 
 }
 .link
@@ -65,6 +49,7 @@ a.major
 {
 	padding-left:20px;
 	padding-right:20px;
+	font-weight:300;
 }
 a.most
 {
@@ -74,11 +59,12 @@ a.most
 }
 a.visited
 {
-	color:#ea4557
+	color:#000000
 }
 a:hover
 {
-	color:#ea4557;
+	color:#FFFFFF;
+	text-shadow: #422142 0px 0px 10px;
 }
 h1
 {
