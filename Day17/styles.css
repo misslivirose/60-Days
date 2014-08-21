@@ -1,0 +1,23 @@
+img
+{
+  width:40%;
+  position:fixed;
+  bottom: -1%;
+  left: -1%;
+}
+body
+{
+  background-color:#eeeeee;
+  font-family:Raleway;
+}
+#links
+{
+  position:fixed;
+  width:60%;
+  bottom:10px;
+  right:0px;
+}
+a
+{
+  margin:30px;
+}
