@@ -1,15 +1,17 @@
+/* Images */
 #pic
 {
   height:100%;
   position:fixed;
   left:0%;
-  box-shadow: 0px 0px 50px #422142;
+
 }
 #rose
 {
-  width:30%;
+  width:34%;
 
 }
+/* Div */
 body
 {
   background-color:#eeeeee;
@@ -20,11 +22,13 @@ body
 #leftpic
 {
   height:100%;
-  width:35%;
+  width:34%;
   position:fixed;
   left:0%;
-  background-image:url("Rectangle.png");
-  background-size: cover;
+  background-image:url("BayBridge.png");
+  background-size:cover;
+  box-shadow: 0px 0px 21px #000534;
+
 }
 #right
 {
@@ -41,11 +45,19 @@ body
 {
   float:left;
   margin-left:10%;
+  margin-top:10%;
+
+  font-size:30px;
+  font-weight:100;
 }
 #design
 {
   float:right;
   margin-right:10%;
+  margin-top:10%;
+
+  font-size:30px;
+  font-weight:100;
 }
 a
 {
@@ -54,11 +66,12 @@ a
   margin-right:20px;
   font-size:20px;
   text-decoration: none;
+  color:#000675;
 }
 a:hover
 {
   color:#FFFFFF;
-  text-shadow: #422142 0px 0px 13px;
+  text-shadow: #000675 0px 0px 13px;
 }
 h1
 {
