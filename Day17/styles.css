@@ -7,7 +7,8 @@
 }
 #rose
 {
-  width:40%;
+  width:30%;
+
 }
 body
 {
@@ -28,20 +29,30 @@ body
 #right
 {
   width:65%;
-  margin:10px;
   height:100%;
   float:right;
 }
 #links
 {
   width:100%;
+  margin-top:35px;
+}
+#dev
+{
+  float:left;
+  margin-left:10%;
+}
+#design
+{
+  float:right;
+  margin-right:10%;
 }
 a
 {
-  font-weight: 100;
+  font-weight: 200;
   margin-left:20px;
   margin-right:20px;
-  font-size:25px;
+  font-size:20px;
   text-decoration: none;
 }
 a:hover
@@ -54,5 +65,16 @@ h1
   font-size:50px;
   font-weight: 200;
   top:30%;
-  margin-top:0;
+}
+h2
+{
+  font-size:30px;
+  font-weight:100;
+}
+p
+{
+  font-size:30px;
+  font-weight:100;
+  padding-left:30px;
+  padding-right:30px;
 }
