@@ -16,17 +16,18 @@ body
   text-align:center;
   margin:0px;
 }
-#left
+#leftpic
 {
   height:100%;
   width:35%;
   position:fixed;
   left:0%;
   background-image:url("Rectangle.png");
-  background-size: 100%;
+  background-size: cover;
 }
 #right
 {
+  width:65%;
   margin:10px;
   height:100%;
   float:right;
