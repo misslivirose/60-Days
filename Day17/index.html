@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!DOCTYPE HTML5>
 <html>
   <head>
       <link rel="stylesheet" type="text/css" href="styles.css" />
@@ -6,6 +6,7 @@
   </head>
   <div id = "leftpic">
     <h1> Liv Erickson </h1>
+    <button id = "home" onclick = "gohome()"> </button>
   </div>
   <div id = "right">
     <p>
@@ -26,6 +27,13 @@
       <a href="http://bit.ly/can_haz_github" target="blank" class = "last"> GitHub </a>
     </div>
   </div>
+  <!-- Home Button -->
+  <script id = "onclick" type = "text/javascript">
+    function gohome()
+    {
+      window.location = 'index.html';
+    }
+  </script>
   <!-- Google Analytics -->
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

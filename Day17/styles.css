@@ -79,6 +79,7 @@ h1
   font-size:50px;
   font-weight: 200;
   top:30%;
+  margin-bottom:15px;
 }
 h2
 {
@@ -92,4 +93,20 @@ p
   padding-left:30px;
   padding-right:30px;
   margin-top:13%;
+}
+
+#home
+{
+  width:55px;
+  height:55px;
+  background: url("homebutton.ico") no-repeat top left;
+  background-color:transparent;
+  background-size:55px;
+  border: none;
+  outline:none;
+}
+#home:hover
+{
+  background: url("homepressed.png") no-repeat top left;
+  background-size:57px;
 }
