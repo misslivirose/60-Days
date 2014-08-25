@@ -45,12 +45,16 @@ body
 
 #design_container
 {
-  visibility:hidden;
+  width:65%;
+  height:100%;
+  float:right;
 }
 
 #dev_container
 {
-
+  width:65%;
+  height:100%;
+  float:right;
 }
 
 /* Links */

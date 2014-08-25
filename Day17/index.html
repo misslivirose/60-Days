@@ -6,7 +6,7 @@
   </head>
   <div id = "leftpic">
     <h1> Liv Erickson </h1>
-    <button id = "home" onclick = "gohome()"> </button>
+    <button id = "home"> </button>
   </div>
   <!--The home page div. This is the default -->
   <div id = "right">
@@ -34,14 +34,9 @@
 
   <!--  The code div -->
   <div id = "dev_container">
+    <h1> Development </h1>
   </div>
   <!-- Home Button -->
-  <script id = "onclick" type = "text/javascript">
-    function gohome()
-    {
-      window.location = 'index.html';
-    }
-  </script>
   <!-- JQuery for handling switches -->
   <script src = "jquery.js"></script>
   <script>
@@ -49,12 +44,19 @@
   {
     $("#design").click(function()
     {
-      alert("Bo");
+      $('#right').hide();
+      $('#design_container').show();
     });
+
     $("#dev").click(function()
     {
-      /*Do something*/
-      alert("Booo");
+      $('#right').hide();
+      $('#design_container').hide();
+      $('#dev_container').show();
+    });
+    $("#home").click(function()
+    {
+      $('#right').show();
     });
   });
   </script>
