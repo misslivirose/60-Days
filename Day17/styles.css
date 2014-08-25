@@ -11,6 +11,11 @@
   width:34%;
 
 }
+.iconclip
+{
+  width: 20%;
+  margin: 10px;
+}
 /* Div */
 body
 {
@@ -110,6 +115,13 @@ p
   padding-left:30px;
   padding-right:30px;
   margin-top:13%;
+}
+.designtext
+{
+  text-align:justify;
+  font-size: 21px;
+  font-weight:200;
+  margin-top:5%;
 }
 /* Buttons */
 #home
