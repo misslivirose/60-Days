@@ -45,12 +45,12 @@ body
 
 #design_container
 {
-
+  visibility:hidden;
 }
 
 #dev_container
 {
-  
+
 }
 
 /* Links */

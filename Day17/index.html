@@ -17,7 +17,7 @@
     <a id = "dev"> Code </a>
     </div>
     <img src = "picture.png" id = "rose">
-    <a id = "design" href = "./design.html"> Design </a>
+    <a href="#" id = "design"> Design </a>
     <br>
     <div id = "links">
       <a href="http://bit.ly/shesgotablog" target = "blank" class = "link"> Blog </a>
@@ -29,7 +29,7 @@
   </div>
   <!-- The design div. -->
   <div id = "design_container">
-  
+    <h1> Design </h1>
   </div>
 
   <!--  The code div -->
@@ -41,6 +41,22 @@
     {
       window.location = 'index.html';
     }
+  </script>
+  <!-- JQuery for handling switches -->
+  <script src = "jquery.js"></script>
+  <script>
+  $(document).ready(function()
+  {
+    $("#design").click(function()
+    {
+      alert("Bo");
+    });
+    $("#dev").click(function()
+    {
+      /*Do something*/
+      alert("Booo");
+    });
+  });
   </script>
   <!-- Google Analytics -->
   <script>
