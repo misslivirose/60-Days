@@ -33,16 +33,27 @@
     <p class = "designtext"> Software should be functional, beautiful, and usable. In today's technology-centric world, it is
       increasingly important that applications and services are designed to supplement the user's
       real-world experiences and supply them with a worry-free way to use the products they love. </p>
-
-    <h2> Icons </h2>
-    <img class = "iconclip" src = "Love Bug.png">
-    <img class = "iconclip" src = "CandyIcon.png">
-    <img class = "iconclip" src = "Lipstick.png">
+      <div id = "icons">
+        <br>
+        <h2 class = "sectionheaders"> Icons </h2>
+        <img class = "iconclip" src = "Love Bug.png">
+        <img class = "iconclip" src = "CandyIcon.png">
+        <img class = "iconclip" src = "Lipstick.png">
+        <p class = "designtext"> Your application's icon is the front door to your product - it is the essence of your service packaged
+          neatly into a beautiful representation of your brand and hints at the experiences your users will quickly learn to love and trust.
+          Bright colors, clean lines, and subtle shadows evoke a sense of fun and simplicity. </p>
+        <br>
+      </div>
+      <div>
+          <h2 class = "sectionheaders"> Apps </h2>
+          <p class = "designtext"> Applications should be intuitive and instinctive. It is vital that each app is respectful of
+          the platform </p>
+      </div>
   </div>
 
   <!--  The code div -->
   <div id = "dev_container">
-    <h1> Development </h1>
+    <h1> [Under] Development </h1>
   </div>
   <!-- Home Button -->
   <!-- JQuery for handling switches -->
@@ -50,6 +61,9 @@
   <script>
   $(document).ready(function()
   {
+    $('#design_container').hide();
+    $('#dev_container').hide();
+
     $("#design").click(function()
     {
       $('#right').hide();

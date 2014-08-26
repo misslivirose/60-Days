@@ -61,6 +61,12 @@ body
   height:100%;
   float:right;
 }
+#icons
+{
+  width:98%;
+  background-color: rgba(220 , 220, 220, .5);
+  box-shadow: 0px 2px 5px #000534;
+}
 
 /* Links */
 #dev
@@ -107,6 +113,10 @@ h2
 {
   font-size:30px;
   font-weight:100;
+}
+h2.sectionheaders
+{
+  text-decoration:underline;
 }
 p
 {
