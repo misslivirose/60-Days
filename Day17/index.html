@@ -53,6 +53,7 @@
     $("#design").click(function()
     {
       $('#right').hide();
+      $('#dev_container').hide();
       $('#design_container').show();
     });
 
@@ -64,6 +65,8 @@
     });
     $("#home").click(function()
     {
+      $('#design_container').hide();
+      $('#dev_container').hide();
       $('#right').show();
     });
   });
