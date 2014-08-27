@@ -19,7 +19,7 @@
 /* Div */
 body
 {
-  background-color:#eeeeee;
+  background-color:#eeefff;
   font-family:Raleway;
   text-align:center;
   margin:0px;
@@ -64,8 +64,8 @@ body
 #icons
 {
   width:98%;
-  background-color: rgba(220 , 220, 220, .5);
-  box-shadow: 0px 2px 5px #000534;
+  background-color: rgba(220 , 220, 220, .1);
+  box-shadow: 0px 2px 5px #111534;
 }
 
 /* Links */
@@ -118,6 +118,12 @@ h2.sectionheaders
 {
   text-decoration:underline;
 }
+h3
+{
+  font-size:20px;
+  font-weight:100;
+}
+
 p
 {
   font-size:30px;
