@@ -19,7 +19,7 @@
 /* Div */
 body
 {
-  background-color:#eeefff;
+  background-color:#fffeff;
   font-family:Raleway;
   text-align:center;
   margin:0px;
@@ -32,7 +32,6 @@ body
   left:0%;
   background-image:url("BayBridge.png");
   background-size:cover;
-  box-shadow: 0px 0px 21px #000534;
 
 }
 #right
@@ -64,7 +63,7 @@ body
 #icons
 {
   width:98%;
-  background-color: rgba(220 , 220, 220, .1);
+  background-color: rgba(220 , 220, 220, .3);
   box-shadow: 0px 2px 5px #111534;
 }
 
